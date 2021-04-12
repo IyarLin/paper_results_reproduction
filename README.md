@@ -14,9 +14,9 @@ Iyar Lin
 On my last [blog
 post](https://iyarlin.github.io/2021/03/09/sparse_matrix_representation_for_ml_in_scale/)
 I’ve discussed a scalable sparse linear regression model I’ve developed
-at work. One interesting trait of that model is that it’s an
-interpolating model - meaning it has 0-training error. This is because
-it has many many more columns than it has rows.
+at work. One of it’s interesting properties that it’s an interpolating
+model - meaning it has 0-training error. This is because it has many
+many more columns than it has rows.
 
 While 0-training error is usually associated with over-fiting, the model
 seems to be pretty solid on the test set as well. Reports of hugely
